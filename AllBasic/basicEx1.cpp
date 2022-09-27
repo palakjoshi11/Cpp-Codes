@@ -148,6 +148,21 @@ void primeNumberCheck(){
     }
 }
 
+void sumOfFirstNNaturalNumbers(){
+
+    int n=10;
+    sum=n*(n+1)/2;
+
+    // even and odd both are having different formulas used for LL type 
+    if(fmod(n,2)==0){
+        sum=(n/2)*(n+1);
+    }
+    else{
+        sum=((n+1)/2)*n;
+    }
+
+}
+
 int main()
 {
     swap();
@@ -163,6 +178,6 @@ int main()
     reverse();
     armstrong();
     primeNumberCheck();
-
+    sumOfFirstNNaturalNumbers();
     return 0;
 }

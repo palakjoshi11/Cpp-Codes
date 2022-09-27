@@ -70,17 +70,51 @@ void pattern5(){
         }
 
          cout<<"\n";
-    }
+    }}
 
+void pattern6(){
+    int n=4;
+    for(int i=0;i<=n;i++){
+        for(int j=i; j<n; j++)
+        {
+            cout<<" ";
+        }
+
+        for(int k=1; k<=n; k++)
+        {
+            cout<<"*"<<" ";
+        }
+
+         cout<<"\n";
+    }
 
 }
 
+void pattern7(){
+    int n=4;
+    for(int i=0;i<=n;i++){
+        for(int j=i; j<n; j++)
+        {
+            cout<<" ";
+        }
+
+        for(int k=1; k<=n+1; k++)
+        {
+            cout<<"*"<<" ";
+        }
+
+         cout<<"\n";
+    }
+
+}
 int main(){
-    // pattern1();
-    // pattern2();
-    // pattern3();
-    // pattern4();
+    pattern1();
+    pattern2();
+    pattern3();
+    pattern4();
     pattern5();
+    pattern6();
+    pattern7();
 
     return 0;
 }
